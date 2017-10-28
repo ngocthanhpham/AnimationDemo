@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Page1.qml</file>
+        <file>Page1Form.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>SideRect.qml</file>
+        <file>BallShoot.qml</file>
+        <file>MyTab.qml</file>
+        <file>CusRectangle.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>goal.jpg</file>
+        <file>fireball.jpg</file>
+        <file>fireball2.jpg</file>
+        <file>shot1.png</file>
+        <file>ball.png</file>
+        <file>goaltxt.png</file>
+    </qresource>
+</RCC>
