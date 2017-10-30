@@ -12,6 +12,8 @@
         <file>Content1.qml</file>
         <file>Content2.qml</file>
         <file>CusBorder.qml</file>
+        <file>MyButton.qml</file>
+        <file>DragDropDemo.qml</file>
     </qresource>
     <qresource prefix="/images">
         <file>goal.jpg</file>

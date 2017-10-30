@@ -39,8 +39,8 @@ ApplicationWindow{
 
             Image {
                 id: ball
-                width: 80
-                height: 80
+                width: wrapperImg.width / 10
+                height: wrapperImg.height / 10
                 x: window.width - 100
                 y: window.height - 100
                 source: "/images/ball.png"
@@ -55,14 +55,14 @@ ApplicationWindow{
                     ParallelAnimation{
                         NumberAnimation{
                             target: ball
-                            to: 220
+                            to: wrapperImg.width / 3.63
                             properties: "x"
                             duration: wrapperImg.duration
                             easing.type: Easing.OutCirc
                         }
                         NumberAnimation{
                             target: ball
-                            to: 300
+                            to: wrapperImg.height / 2.64
                             properties: "y"
                             duration: wrapperImg.duration
                         }
@@ -84,13 +84,13 @@ ApplicationWindow{
                         NumberAnimation{
                             target: ball
                             properties: "x"
-                            to: 500
+                            to: wrapperImg.width / 1.6
                             duration: wrapperImg.duration * 0.4
                         }
                         NumberAnimation{
                             target: ball
                             properties: "y"
-                            to: 350
+                            to: wrapperImg.height / 2.29
                             duration: wrapperImg.duration * 0.4
                         }
                         ScaleAnimator{
@@ -105,7 +105,7 @@ ApplicationWindow{
                     NumberAnimation{
                         target: ball
                         properties: "y"
-                        to: 440
+                        to: wrapperImg.height / 1.82
                         duration: wrapperImg.duration * 0.4
                         easing.type: Easing.OutBounce
                     }
