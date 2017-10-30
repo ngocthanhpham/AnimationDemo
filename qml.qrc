@@ -8,6 +8,10 @@
         <file>BallShoot.qml</file>
         <file>MyTab.qml</file>
         <file>CusRectangle.qml</file>
+        <file>TextFieldStates.qml</file>
+        <file>Content1.qml</file>
+        <file>Content2.qml</file>
+        <file>CusBorder.qml</file>
     </qresource>
     <qresource prefix="/images">
         <file>goal.jpg</file>

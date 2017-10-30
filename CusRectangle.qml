@@ -5,5 +5,4 @@ Rectangle{
     height: parent.height/10
     border.color: "red"
     border.width: 2
-
 }
